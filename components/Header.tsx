@@ -28,7 +28,6 @@ const Header = forwardRef((props: Props, ref: ForwardedRef<HTMLElement>) => {
               <Link
                 href={"#home"}
                 scroll={false}
-                replace={true}
                 className=" hover:text-gray-900 hover:underline active:text-gray-400 dark:hover:text-yellow-400 dark:active:text-yellow-500"
               >
                 Home
@@ -38,7 +37,6 @@ const Header = forwardRef((props: Props, ref: ForwardedRef<HTMLElement>) => {
               <Link
                 href={"#skills"}
                 scroll={false}
-                replace={true}
                 className=" hover:text-gray-900 hover:underline active:text-gray-400 dark:hover:text-yellow-400 dark:active:text-yellow-500"
               >
                 Skills
@@ -48,7 +46,6 @@ const Header = forwardRef((props: Props, ref: ForwardedRef<HTMLElement>) => {
               <Link
                 href={"#projects"}
                 scroll={false}
-                replace={true}
                 className=" hover:text-gray-900 hover:underline active:text-gray-400 dark:hover:text-yellow-400 dark:active:text-yellow-500"
               >
                 Project
@@ -58,7 +55,6 @@ const Header = forwardRef((props: Props, ref: ForwardedRef<HTMLElement>) => {
               <Link
                 href={"#contact"}
                 scroll={false}
-                replace={true}
                 className=" hover:text-gray-900 hover:underline active:text-gray-400 dark:hover:text-yellow-400 dark:active:text-yellow-500"
               >
                 Contact
