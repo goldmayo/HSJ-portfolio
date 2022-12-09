@@ -19,6 +19,7 @@ export default function Home() {
     if (headerH === undefined) return;
     setNavHeight(headerH);
   }, []);
+
   return (
     <div className="z-0 bg-gray-100 scroll-smooth">
       <Head>
