@@ -27,7 +27,7 @@ export const ProjectData: IProjectData[] = [
     title: "이고바다(IGOBADA)",
     duration: "2022-02-14 ~ 2022-06-28",
     projectType: "1인 개발",
-    description: "명함관리 웹앱 토이 프로젝트",
+    description: "명함관리 웹앱 토이 프로젝트 lighthouse로 최적화 작업 완료",
     Links: {
       githubLink: "https://github.com/goldmayo/IGOBADA",
     },
