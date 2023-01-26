@@ -21,14 +21,13 @@ const Skills = (props: Props) => {
             <Skill path={"/assets/apollo.png"} iconName={"Apollo"} nowUse={true} />
             <Skill path={"/assets/tailwind.png"} iconName={"TailwindCss"} nowUse={true} />
             <Skill path={"/assets/storybook.png"} iconName={"Storybook"} nowUse={true} />
-            <Skill path={"/assets/jest.png"} iconName={"Jest"} />
+            <Skill path={"/assets/graphql.png"} iconName={"GraphQL"} nowUse={true} />
           </div>
         </div>
         <div className="">
           <h3 className="p-4 text-lg text-left ">Backend</h3>
           <div className="flex flex-row flex-wrap ">
             <Skill path={"/assets/springboot.png"} iconName={"Springboot"} nowUse={true} />
-            <Skill path={"/assets/graphql.png"} iconName={"GraphQL"} nowUse={true} />
             <Skill path={"/assets/firebase.png"} iconName={"Firebase"} />
             <Skill path={"/assets/mariadb.png"} iconName={"Mariadb"} nowUse={true} />
             <Skill path={"/assets/mysql.png"} iconName={"MySQL"} />
@@ -57,6 +56,7 @@ const Skills = (props: Props) => {
             <h3 className="p-4 text-lg text-left ">Interest</h3>
           </div>
           <div className="flex flex-row flex-wrap ">
+            <Skill path={"/assets/jest.png"} iconName={"Jest"} />
             <Skill path={"/assets/docker.png"} iconName={"Docker"} />
             <Skill path={"/assets/aws.png"} iconName={"AWS"} />
             <Skill path={"/assets/babel.png"} iconName={"Babel"} />

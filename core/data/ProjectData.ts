@@ -31,7 +31,7 @@ export const ProjectData: IProjectData[] = [
     Links: {
       githubLink: "https://github.com/goldmayo/IGOBADA",
     },
-    teck: "React,Firebase,Typescript",
+    teck: "React,Firebase,Typescript,Redux-toolkit",
   },
   {
     coverImage: "/project_logo/javic.png",
