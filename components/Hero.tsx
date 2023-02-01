@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
-import { SiGithub } from "react-icons/si";
+import { SiGithub, SiNotion } from "react-icons/si";
 type Props = {};
 
 const Hero = (props: Props) => {
@@ -48,6 +48,16 @@ const Hero = (props: Props) => {
             target={"_blank"}
           >
             <SiGithub
+              size={"1.5rem"}
+              className="text-gray-700 hover:text-gray-600 active:text-gray-500 dark:text-white dark:hover:text-gray-200 dark:active:text-gray-300"
+            />
+          </Link>
+          <Link
+            className="px-2 py-1 text-lg text-white dark:text-black"
+            href={"https://harmless-hibiscus-5de.notion.site/adb0c28465d44c7186f28327775b33a9"}
+            target={"_blank"}
+          >
+            <SiNotion
               size={"1.5rem"}
               className="text-gray-700 hover:text-gray-600 active:text-gray-500 dark:text-white dark:hover:text-gray-200 dark:active:text-gray-300"
             />
