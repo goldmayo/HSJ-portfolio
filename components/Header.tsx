@@ -26,8 +26,10 @@ const Header = forwardRef((props: Props, ref: ForwardedRef<HTMLElement>) => {
           <ul className="flex flex-row items-center justify-center gap-4 mr-4 text-base font-medium align-middle">
             <li>
               <Link
-                href={"#home"}
+                href={"/#home"}
                 scroll={false}
+                replace
+                target={"_top"}
                 className=" hover:text-gray-900 hover:underline active:text-gray-400 dark:hover:text-yellow-400 dark:active:text-yellow-500"
               >
                 Home
@@ -35,8 +37,10 @@ const Header = forwardRef((props: Props, ref: ForwardedRef<HTMLElement>) => {
             </li>
             <li>
               <Link
-                href={"#skills"}
+                href={"/#skills"}
                 scroll={false}
+                target={"_top"}
+                replace
                 className=" hover:text-gray-900 hover:underline active:text-gray-400 dark:hover:text-yellow-400 dark:active:text-yellow-500"
               >
                 Skills
@@ -44,8 +48,10 @@ const Header = forwardRef((props: Props, ref: ForwardedRef<HTMLElement>) => {
             </li>
             <li>
               <Link
-                href={"#projects"}
+                href={"/#projects"}
                 scroll={false}
+                target={"_top"}
+                replace
                 className=" hover:text-gray-900 hover:underline active:text-gray-400 dark:hover:text-yellow-400 dark:active:text-yellow-500"
               >
                 Project
@@ -53,8 +59,10 @@ const Header = forwardRef((props: Props, ref: ForwardedRef<HTMLElement>) => {
             </li>
             <li>
               <Link
-                href={"#contact"}
+                href={"/#contact"}
                 scroll={false}
+                target={"_top"}
+                replace
                 className=" hover:text-gray-900 hover:underline active:text-gray-400 dark:hover:text-yellow-400 dark:active:text-yellow-500"
               >
                 Contact

@@ -2,7 +2,7 @@ import React from "react";
 
 type Props = {};
 
-const PageNotFound = (props: Props) => {
+const notfound404 = (props: Props) => {
   return (
     <>
       <h1>페이지를 찾을 수 없습니다</h1>
@@ -10,4 +10,4 @@ const PageNotFound = (props: Props) => {
   );
 };
 
-export default PageNotFound;
+export default notfound404;
