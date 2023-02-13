@@ -22,6 +22,8 @@ const Skills = (props: Props) => {
             <Skill path={"/assets/tailwind.png"} iconName={"TailwindCss"} nowUse={true} />
             <Skill path={"/assets/storybook.png"} iconName={"Storybook"} nowUse={true} />
             <Skill path={"/assets/graphql.png"} iconName={"GraphQL"} nowUse={true} />
+            <Skill path={"/assets/redux.png"} iconName={"Redux"} nowUse={true} />
+            <Skill path={"/assets/zustand.png"} iconName={"Zustand"} nowUse={true} />
           </div>
         </div>
         <div className="">
