@@ -20,7 +20,7 @@ export const ProjectData: IProjectData[] = [
     Links: {
       githubLink: "https://github.com/goldmayo/allcamp-graphql-client",
     },
-    teck: "Next.js,React,Typescript,Storybook,GraphQL,Relay,Apollo,TailwindCss,Figma,Java,SpringBoot,Querydsl,MariaDB",
+    teck: "Next.js,React,Typescript,Zustand,Storybook,GraphQL,Relay,Apollo,TailwindCss,Figma,Java,SpringBoot,Querydsl,MariaDB",
   },
   {
     coverImage: "/project_logo/igobada.png",
